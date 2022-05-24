@@ -1,0 +1,122 @@
+# Misceláneas
+*.clase
+*.cerrar con llave
+*.Iniciar sesión
+*.pyc
+*.swp
+.DS_Tienda
+.átomo/
+.buildlog/
+.historia
+.svn/
+
+# relacionado con IntelliJ
+*.iml
+*.ipr
+*.iws
+.ocurrencia/
+
+# Relacionado con el código de Visual Studio
+.classpath
+.proyecto
+.ajustes/
+.vscode/
+
+# Flutter específico del repositorio
+/bin/caché/
+/bin/internal/bootstrap.bat
+/bin/internal/bootstrap.sh
+/bin/mingit/
+/dev/benchmarks/mega_gallery/
+/dev/bots/.recipe_deps
+/dev/bots/android_tools/
+/dev/devicelab/ABresultados*.json
+/dev/docs/doc/
+/dev/docs/flutter.docs.zip
+/dev/docs/lib/
+/dev/docs/pubspec.yaml
+/dev/integration_tests/**/xcuserdata
+/dev/integration_tests/**/Pods
+/paquetes/flutter/cobertura/
+versión
+análisis_benchmark.json
+
+# archivo de paquetes que contiene rutas multirraíz
+.paquetes.generados
+
+# Relacionado con Flutter/Dart/Pub
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencias
+**/generated_plugin_registrant.dart
+.paquetes
+.pub-caché/
+.pub/
+construir/
+aleteo_*.png
+vinculado_*.ds
+desvinculado.ds
+unlinked_spec.ds
+
+# Relacionado con Android
+**/android/**/gradle-wrapper.jar
+.gradle/
+**/android/capturas/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.propiedades
+**/android/**/GeneratedPluginRegistrant.java
+**/android/clave.propiedades
+*.jks
+
+# iOS/XCode relacionado
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.movido-a un lado
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivav3
+**/ios/**/*sincronizar/
+**/ios/**/.sconsign.dblite
+**/ios/**/.etiquetas*
+**/ios/**/.vagabundo/
+**/ios/**/Datos Derivados/
+**/ios/**/Icono?
+**/ios/**/Pods/
+**/ios/**/.enlaces simbólicos/
+**/ios/**/perfil
+**/ios/**/xcuserdata
+**/ios/.generado/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generado.xcconfig
+**/ios/Flutter/efímero
+**/ios/Flutter/app.flx
+**/ios/Flutter/aplicación.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Mac OS
+**/Aleteo/efímero/
+**/vainas/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/efímero
+**/xcuserdata/
+
+# Cobertura
+cobertura/
+
+# Símbolos
+aplicación.*.símbolos
+
+# Excepciones a las reglas anteriores.
+!**/ios/**/default.mode1v3
+!**/ios/**/predeterminado.modo2v3
+!**/ios/**/predeterminado.pbxuser
+!**/ios/**/predeterminado.perspectivav3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+!/dev/ci/**/Gemfile.bloquear
